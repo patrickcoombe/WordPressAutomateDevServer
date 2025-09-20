@@ -97,3 +97,7 @@ The script creates the following directory structure for each client:
 ```
 
 
+Last note - I ran this script on a Vultr server Linux tmphost 6.1.0-33-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.133-1 (2025-04-10) x86_64 GNU/Linux
+
+
+
