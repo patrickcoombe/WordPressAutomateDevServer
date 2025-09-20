@@ -4,12 +4,12 @@ This script automates the setup of a new WordPress environment for a client usin
 
 ## Features
 
-  - 🏗️ **Automated Setup:** Quickly create a new WordPress instance for a client with a single command.
-  - 🐳 **Dockerized Environment:** Uses Docker Compose to manage a multi-container application, including WordPress, MySQL, phpMyAdmin, and SFTP.
-  - 🔐 **Secure by Default:** Automatically generates strong, unique passwords for the WordPress admin, MySQL database, and SFTP user.
-  - 📂 **Isolated Directories:** Each client's installation is stored in its own directory under `/opt/elite-wp-packages`, preventing conflicts.
-  - ⚙️ **WP-CLI Integration:** Installs and uses WP-CLI inside the container to automatically complete the WordPress installation.
-  - 📄 **Credential Management:** Saves all generated credentials to a `credentials.txt` file within the client's directory for easy access.
+🏗️ **Automated Setup:** Quickly create a new WordPress instance for a client with a single command.
+🐳 **Dockerized Environment:** Uses Docker Compose to manage a multi-container application, including WordPress, MySQL, phpMyAdmin, and SFTP.
+🔐 **Secure by Default:** Automatically generates strong, unique passwords for the WordPress admin, MySQL database, and SFTP user.
+📂 **Isolated Directories:** Each client's installation is stored in its own directory under `/opt/elite-wp-packages`, preventing conflicts.
+⚙️ **WP-CLI Integration:** Installs and uses WP-CLI inside the container to automatically complete the WordPress installation.
+📄 **Credential Management:** Saves all generated credentials to a `credentials.txt` file within the client's directory for easy access.
 
 -----
 
@@ -88,4 +88,5 @@ The script creates the following directory structure for each client:
     ├── html/               # All WordPress files are here
     ├── docker-compose.yml  # Docker configuration for this client
     └── credentials.txt     # All generated credentials
+
 ```
