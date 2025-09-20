@@ -1,6 +1,6 @@
 # WordPress Docker Automation Script
 
-This script automates the setup of a new WordPress environment for a client using Docker. It creates a complete, isolated WordPress stack with a database, phpMyAdmin, and an SFTP server. The entire process is containerized, ensuring a clean and repeatable deployment for each new client.
+This script automates the setup of a new WordPress environment for a client using Docker. It creates a complete, isolated WordPress stack with a database, phpMyAdmin, and an SFTP server. The entire process is containerized, ensuring a clean and repeatable deployment for each new client. At the end it dumps all the credentials into a txt file. 
 
 ## Features
 
@@ -95,4 +95,5 @@ The script creates the following directory structure for each client:
     └── credentials.txt     # All generated credentials
 
 ```
+
 
